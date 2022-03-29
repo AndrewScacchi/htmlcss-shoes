@@ -1,1 +1,75 @@
 /* General Settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+#wrapper {
+    position: relative;
+}
+/* Navbar Styling */
+.navbar{
+    position: absolute;
+    display: inline-block;
+    z-index: 10;
+    color: black;
+    right: 5vw;
+    top: 5vh;
+}
+.navbar li {
+    text-decoration: none;
+    list-style: none;
+    float: left;
+}
+.navbar li a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 0.5em 0.8em;
+    margin: 1em;
+    border-radius: 50%;      
+}
+.navbar li a:hover{
+    transform: scale(110%);
+    box-shadow: 1px 2px 1px black;
+}
+
+
+/* Box Styling */
+.container {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* debug */
+    border: 1px solid red;
+    
+}
+.box {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    /* debug */
+    background-color: red;
+    border: 1px solid white;
+}
+.box-img {
+    width: 100%;
+}
+.box-title {
+    color: white;
+}
+
+#box-1 {
+    background-color: red;
+}
+#box-2 {
+    background-color: green;
+}
+#box-3 {
+    background-color: yellow;
+}
