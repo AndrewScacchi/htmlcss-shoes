@@ -7,6 +7,7 @@
 #wrapper {
     position: relative;
 }
+
 /* Navbar Styling */
 .navbar{
     position: absolute;
@@ -27,9 +28,9 @@
     background-color: white;
     text-align: center;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1em;
     padding: 0.5em 0.8em;
-    margin: 1em;
+    margin: 0.8em;
     border-radius: 50%;      
 }
 .navbar li a:hover{
@@ -37,31 +38,25 @@
     box-shadow: 1px 2px 1px black;
 }
 
-
 /* Box Styling */
 .container {
     position: absolute;
     text-align: center;
+    width: 60%;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    /* debug */
-    border: 1px solid red;
-    
 }
 .box {
     height: 100vh;
     width: 100vw;
     position: relative;
-    /* debug */
-    background-color: red;
-    border: 1px solid white;
 }
 .box-img {
     width: 100%;
 }
 .box-title {
-    color: white;
+    color: yellow;
 }
 
 #box-1 {
@@ -72,4 +67,7 @@
 }
 #box-3 {
     background-color: yellow;
+}
+#box-3 .box-title {
+    color: green;
 }
